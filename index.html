@@ -108,7 +108,7 @@
                 <h2 class="main-heading">Employees</h2>
                 <p class="main-text">Find all of your company's employee accounts and their associated roles.</p>
             </div>
-            <div>
+            <div class="employees-btns">
                 <button class="btn-export">
                     <div class="btn-flex">
                         <div><img class="img-export" src="images/Masked Icon.png" alt="export"></div>
@@ -172,7 +172,7 @@
                     <option>opt 2</option>
                     <option>opt 3</option>
                 </select>
-                <select class="filter-tags">
+                <select class="filter-tags department-filter">
                     <option>Department</option>
                     <option>opt 1</option>
                     <option>opt 2</option>
@@ -201,7 +201,7 @@
                     <th>
                         <input type="checkbox" class="checkbox">
                     </th>
-                    <th>
+                    <th class="th-user">
                         <div class="th-flex">
                             <div>
                                 USER
@@ -211,7 +211,7 @@
                             </div>
                         </div>
                     </th>
-                    <th>
+                    <th class="th-location">
                         <div class="th-flex">
                             <div>
                                 LOCATION
@@ -221,7 +221,7 @@
                             </div>
                         </div>
                     </th>
-                    <th>
+                    <th class="th-department">
                         <div class="th-flex">
                             <div>
                                 DEPARTMENT
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                     </th>
-                    <th>
+                    <th class="th-role">
                         <div class="th-flex">
                             <div>
                                 ROLE
@@ -241,7 +241,7 @@
                             </div>
                         </div>
                     </th>
-                    <th>
+                    <th class="th-empno">
                         <div class="th-flex">
                             <div>
                                 EMP NO
@@ -251,7 +251,7 @@
                             </div>
                         </div>
                     </th>
-                    <th>
+                    <th class="th-status">
                         <div class="th-flex">
                             <div>
                                 STATUS
@@ -261,7 +261,7 @@
                             </div>
                         </div>
                     </th>
-                    <th>
+                    <th class="th-joindt">
                         <div class="th-flex">
                             <div>
                                 JOIN DT
@@ -286,7 +286,7 @@
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -297,19 +297,19 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -320,19 +320,19 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -343,19 +343,19 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -366,19 +366,19 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -389,19 +389,19 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -412,19 +412,19 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -435,19 +435,19 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -458,19 +458,19 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -481,19 +481,19 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -504,19 +504,19 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
                 <tr class="table-rows">
                     <td><input type="checkbox" class="check-box"></td>
-                    <td>
+                    <td class="th-user">
                         <div class="profile-section-copy">
                             <div>
                                 <img class="img-avatar" src="images/Avatar.png">
@@ -527,37 +527,14 @@
                             </div>
                         </div>
                     </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
+                    <td class="row-content th-location">Hyderabad</td>
+                    <td class="row-content th-department">Product Engg</td>
+                    <td class="row-content th-role">Full-stack Developer</td>
+                    <td class="row-content th-empno">TZ002341</td>
+                    <td class="th-status">
                         <button class="btn-active">Active</button>
                     </td>
-                    <td class="row-content">12/03/2023</td>
-                    <td class="triple-dot">...</td>
-                </tr>
-                <tr class="table-rows">
-                    <td><input type="checkbox" class="check-box"></td>
-                    <td>
-                        <div class="profile-section-copy">
-                            <div>
-                                <img class="img-avatar" src="images/Avatar.png">
-                            </div>
-                            <div>
-                                <p class="table-person-name">Edgar Jones</p>
-                                <p class="table-person-email">edgar@tezo.com</p>
-                            </div>
-                        </div>
-                    </td>
-                    <td class="row-content">Hyderabad</td>
-                    <td class="row-content">Product Engg</td>
-                    <td class="row-content">Full-stack Developer</td>
-                    <td class="row-content">TZ002341</td>
-                    <td>
-                        <button class="btn-active">Active</button>
-                    </td>
-                    <td class="row-content">12/03/2023</td>
+                    <td class="row-content th-joindt">12/03/2023</td>
                     <td class="triple-dot">...</td>
                 </tr>
             </table>

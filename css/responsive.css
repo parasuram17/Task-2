@@ -9,6 +9,14 @@
     .btn-accept{
         margin-top:0.4rem;
     }
+    .alphabet,
+    .th-joindt{
+        display:none;
+    }
+    .employees-btns{
+        display: flex;
+        justify-content: end;
+    }
     
 }
 @media only screen and(min-width:601px),(max-width:768px) {
@@ -22,6 +30,21 @@
     .btn-accept{
         margin-top:0.3rem;
     }
+    .alphabet,
+    .th-status,
+    .th-joindt{
+        display:none;
+    }
+    .btn-export{
+        margin-bottom:0.3rem;
+    } 
+    .employees-btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+    
     
 }
 @media only screen and (max-width:600px){
@@ -58,4 +81,22 @@
     .img-search{
         width: 1.2rem;
     }
+    .alphabet,
+    .th-role,
+    .th-empno,
+    .th-status,
+    .th-joindt,
+    .department-filter{
+        display:none;
+    }
+    .btn-export{
+        margin-bottom:0.3rem;
+    } 
+    .employees-btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+    
 }
