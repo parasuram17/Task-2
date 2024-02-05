@@ -15,18 +15,18 @@
     color:grey;
     margin:0 0.4rem;
 }
-.mhp3{
+.main-heading-employee-page{
     display: flex;
     align-items: center;
 }
-.mtp3{
+.main-title-employee-page{
     margin-top: 0.8rem;
 }
 
 .c1,.c2,.c3,.c4,.c5,.c6{
     padding: 0.4rem 1rem;
 }
-.pscp3{
+.profile-section-copy-employee-page{
     margin: 1rem 0;
 }
 .card-person-name{

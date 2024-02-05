@@ -405,7 +405,7 @@ header {
 .icon-arrow{
     transform: scale(0.8);
 }
-.card-icon-tiny{
+.card-icons{
     transform: scale(0.8);
     padding-right:0.25rem;
 }
